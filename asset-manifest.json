@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/wilmerzel19/react-app-web/static/css/main.a75f283d.css",
+    "main.js": "/wilmerzel19/react-app-web/static/js/main.a06796f9.js",
+    "index.html": "/wilmerzel19/react-app-web/index.html",
+    "main.a75f283d.css.map": "/wilmerzel19/react-app-web/static/css/main.a75f283d.css.map",
+    "main.a06796f9.js.map": "/wilmerzel19/react-app-web/static/js/main.a06796f9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a75f283d.css",
+    "static/js/main.a06796f9.js"
+  ]
+}
