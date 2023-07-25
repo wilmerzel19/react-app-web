@@ -51,6 +51,7 @@ function App() {
               </span>
               <span>Men&uacute;</span>
             </h2>
+            
             <ul id="menu">
               <li>
                 <a href="#">
@@ -101,6 +102,68 @@ function App() {
 
       </header>
       <main>
+        <section className="flex justify-center">
+          <form className="w-1/2">
+            <h2 className="text-center text-2xl font-bold">Registro de Clientes</h2>
+            <div className="mb-4">
+              <label className="block text-gray-700 text-sm font-bold mb-2" for="nombre">
+                Nombre
+              </label>
+              <input
+                className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+                
+                id="nombre"
+                type="text"
+                placeholder="Nombre"
+              />  
+
+            </div>
+            <div className="mb-4">
+              <label className="block text-gray-700 text-sm font-bold mb-2" for="apellido">
+                Apellido
+              </label>
+              <input
+                className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+
+                id="apellido"
+                type="text"
+                placeholder="Apellido"
+              />  
+              
+              <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+                Registrar
+              </button>
+
+
+            </div>
+            </form>
+            </section>
+
+            
+            <table className="table-auto w-full">
+                <thead>
+                  <tr>
+                    <th className="px-4 py-2">Nombre</th>
+                    <th className="px-4 py-2">Apellido</th>
+                    <th className="px-4 py-2">Acciones</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td className="border px-4 py-2">Intro to CSS</td>
+                    <td className="border px-4 py-2">Adam</td>
+                    <td className="border px-4 py-2">
+                      <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+                        Editar
+                      </button>
+                      <button className="bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-4 rounded">
+                        Eliminar
+                      </button>
+                    </td>
+                  </tr>
+                    </tbody>  
+                    </table>
+     
         <section>
 
 
